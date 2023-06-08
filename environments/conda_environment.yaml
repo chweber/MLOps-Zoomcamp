@@ -1,15 +1,6 @@
-name: mlops_week1
+name: mlops_zoomcamp
 
 channels:
- - default
- - conda-forge
-
-dependencies:
- - python=3.11.3
-
-name: mlops_week2_wb
-
-channelts:
  - default
  - conda-forge
 
