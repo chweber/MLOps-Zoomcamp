@@ -31,8 +31,7 @@ def run_train(data_artifact: str):
                                random_state=0,
                                n_estimators=config.n_estimators,
                                min_samples_split=config.min_samples_split,
-                               min_samples_leaf=config.min_samples_leaf
-    )
+                               min_samples_leaf=config.min_samples_leaf)
     rf.fit(X_train, y_train)
     y_pred = rf.predict(X_val)
 
