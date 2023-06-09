@@ -1,0 +1,185 @@
+2023-06-09 01:37:24,171 INFO    StreamThr :95365 [internal.py:wandb_internal():86] W&B internal server running at pid: 95365, started at: 2023-06-09 01:37:24.170914
+2023-06-09 01:37:24,172 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: status
+2023-06-09 01:37:24,178 INFO    WriterThread:95365 [datastore.py:open_for_write():85] open: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/run-yy0ry1g4.wandb
+2023-06-09 01:37:24,178 DEBUG   SenderThread:95365 [sender.py:send():369] send: header
+2023-06-09 01:37:24,195 DEBUG   SenderThread:95365 [sender.py:send():369] send: run
+2023-06-09 01:37:24,631 INFO    SenderThread:95365 [dir_watcher.py:__init__():211] watching files in: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files
+2023-06-09 01:37:24,631 INFO    SenderThread:95365 [sender.py:_start_run_threads():1100] run started: yy0ry1g4 with start time 1686267444.171626
+2023-06-09 01:37:24,631 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: summary_record
+2023-06-09 01:37:24,632 INFO    SenderThread:95365 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-09 01:37:24,637 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: check_version
+2023-06-09 01:37:24,637 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: check_version
+2023-06-09 01:37:24,772 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: run_start
+2023-06-09 01:37:24,782 DEBUG   HandlerThread:95365 [system_info.py:__init__():31] System info init
+2023-06-09 01:37:24,783 DEBUG   HandlerThread:95365 [system_info.py:__init__():46] System info init done
+2023-06-09 01:37:24,783 INFO    HandlerThread:95365 [system_monitor.py:start():181] Starting system monitor
+2023-06-09 01:37:24,783 INFO    SystemMonitor:95365 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-09 01:37:24,783 INFO    HandlerThread:95365 [system_monitor.py:probe():201] Collecting system info
+2023-06-09 01:37:24,784 DEBUG   HandlerThread:95365 [system_info.py:probe():195] Probing system
+2023-06-09 01:37:24,784 INFO    SystemMonitor:95365 [interfaces.py:start():190] Started cpu monitoring
+2023-06-09 01:37:24,784 INFO    SystemMonitor:95365 [interfaces.py:start():190] Started disk monitoring
+2023-06-09 01:37:24,786 INFO    SystemMonitor:95365 [interfaces.py:start():190] Started gpuapple monitoring
+2023-06-09 01:37:24,788 INFO    SystemMonitor:95365 [interfaces.py:start():190] Started memory monitoring
+2023-06-09 01:37:24,789 INFO    SystemMonitor:95365 [interfaces.py:start():190] Started network monitoring
+2023-06-09 01:37:24,793 DEBUG   HandlerThread:95365 [system_info.py:_probe_git():180] Probing git
+2023-06-09 01:37:24,812 DEBUG   HandlerThread:95365 [system_info.py:_probe_git():188] Probing git done
+2023-06-09 01:37:24,812 DEBUG   HandlerThread:95365 [system_info.py:probe():240] Probing system done
+2023-06-09 01:37:24,812 DEBUG   HandlerThread:95365 [system_monitor.py:probe():210] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.11.3', 'heartbeatAt': '2023-06-08T23:37:24.784414', 'startedAt': '2023-06-08T23:37:24.156264', 'docker': None, 'cuda': None, 'args': ('--wandb_project', 'exp-rf-wandb', '--wandb_entity', 'chweber', '--data_artifact', 'chweber/mlops-wandb_experiment-tracking/NYC-Taxi:v0'), 'state': 'running', 'program': '/Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/sweep.py', 'codePath': 'sweep.py', 'git': {'remote': 'https://github.com/chweber/MLOps-Zoomcamp.git', 'commit': '0472cc04f06b8a13ad792ae3fa6a5194fdb6adb7'}, 'email': 'info.cweber@googlemail.com', 'root': '/Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp', 'host': 'MBPvonChristoph.nachbar.home.cats.rocks', 'username': 'toph', 'executable': '/opt/homebrew/anaconda3/envs/mlops_zoomcamp/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 926.3517189025879, 'used': 11.954265594482422}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-06-09 01:37:24,812 INFO    HandlerThread:95365 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-09 01:37:24,812 INFO    HandlerThread:95365 [system_monitor.py:probe():214] Publishing system info
+2023-06-09 01:37:24,812 DEBUG   HandlerThread:95365 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-09 01:37:24,813 DEBUG   HandlerThread:95365 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-09 01:37:24,813 DEBUG   HandlerThread:95365 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-09 01:37:25,637 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-summary.json
+2023-06-09 01:37:25,638 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/conda-environment.yaml
+2023-06-09 01:37:25,638 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/requirements.txt
+2023-06-09 01:37:26,155 DEBUG   HandlerThread:95365 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-09 01:37:26,155 INFO    HandlerThread:95365 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-09 01:37:26,157 DEBUG   SenderThread:95365 [sender.py:send():369] send: files
+2023-06-09 01:37:26,157 INFO    SenderThread:95365 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-09 01:37:26,160 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-09 01:37:26,160 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: stop_status
+2023-06-09 01:37:26,350 DEBUG   SenderThread:95365 [sender.py:send():369] send: telemetry
+2023-06-09 01:37:26,642 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/conda-environment.yaml
+2023-06-09 01:37:26,643 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-metadata.json
+2023-06-09 01:37:26,654 INFO    wandb-upload_0:95365 [upload_job.py:push():133] Uploaded file /var/folders/t_/d431v4bs417dk8242vqhkqb40000gn/T/tmpb35489mawandb/6hsi3l01-wandb-metadata.json
+2023-06-09 01:37:26,726 DEBUG   SenderThread:95365 [sender.py:send():369] send: use_artifact
+2023-06-09 01:37:27,438 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-09 01:37:27,439 DEBUG   SenderThread:95365 [sender.py:send():369] send: history
+2023-06-09 01:37:27,439 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: summary_record
+2023-06-09 01:37:27,439 INFO    SenderThread:95365 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-09 01:37:27,643 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-09 01:37:27,643 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: log_artifact
+2023-06-09 01:37:27,645 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-summary.json
+2023-06-09 01:37:27,646 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/output.log
+2023-06-09 01:37:28,650 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-09 01:37:29,136 INFO    wandb-upload_0:95365 [upload_job.py:push():91] Uploaded file /Users/toph/Library/Application Support/wandb/artifacts/staging/tmppa6jb22_
+2023-06-09 01:37:29,657 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/output.log
+2023-06-09 01:37:30,054 INFO    SenderThread:95365 [sender.py:send_request_log_artifact():1414] logged artifact yy0ry1g4-model - {'id': 'QXJ0aWZhY3Q6NDgyMDI2MDc3', 'digest': '082abeb50f456ace083e638b9a342ae6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1NTczOTMw', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-09 01:37:30,054 DEBUG   SenderThread:95365 [sender.py:send():369] send: telemetry
+2023-06-09 01:37:30,054 DEBUG   SenderThread:95365 [sender.py:send():369] send: exit
+2023-06-09 01:37:30,055 INFO    SenderThread:95365 [sender.py:send_exit():574] handling exit code: 0
+2023-06-09 01:37:30,055 INFO    SenderThread:95365 [sender.py:send_exit():576] handling runtime: 2
+2023-06-09 01:37:30,055 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: status_report
+2023-06-09 01:37:30,055 INFO    SenderThread:95365 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-09 01:37:30,055 INFO    SenderThread:95365 [sender.py:send_exit():582] send defer
+2023-06-09 01:37:30,056 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: poll_exit
+2023-06-09 01:37:30,056 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,056 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-09 01:37:30,056 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,056 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-09 01:37:30,056 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 1
+2023-06-09 01:37:30,056 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,056 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-09 01:37:30,056 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,056 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-09 01:37:30,056 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 2
+2023-06-09 01:37:30,056 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,056 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-09 01:37:30,056 INFO    HandlerThread:95365 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-09 01:37:30,056 DEBUG   SystemMonitor:95365 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-09 01:37:30,056 DEBUG   SystemMonitor:95365 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-09 01:37:30,056 DEBUG   SystemMonitor:95365 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-09 01:37:30,057 INFO    HandlerThread:95365 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-09 01:37:30,057 INFO    HandlerThread:95365 [interfaces.py:finish():202] Joined disk monitor
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [interfaces.py:finish():202] Joined memory monitor
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [interfaces.py:finish():202] Joined network monitor
+2023-06-09 01:37:30,340 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 3
+2023-06-09 01:37:30,340 DEBUG   SenderThread:95365 [sender.py:send():369] send: telemetry
+2023-06-09 01:37:30,340 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-09 01:37:30,340 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 4
+2023-06-09 01:37:30,340 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-09 01:37:30,340 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-09 01:37:30,340 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 5
+2023-06-09 01:37:30,340 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,340 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-09 01:37:30,341 DEBUG   SenderThread:95365 [sender.py:send():369] send: summary
+2023-06-09 01:37:30,341 INFO    SenderThread:95365 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-09 01:37:30,341 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,341 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-09 01:37:30,341 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 6
+2023-06-09 01:37:30,341 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,341 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-09 01:37:30,341 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,341 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-09 01:37:30,342 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: status_report
+2023-06-09 01:37:30,517 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 7
+2023-06-09 01:37:30,517 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:30,517 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-09 01:37:30,518 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:30,518 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-09 01:37:30,664 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/config.yaml
+2023-06-09 01:37:30,664 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-summary.json
+2023-06-09 01:37:31,169 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 8
+2023-06-09 01:37:31,170 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:31,170 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-09 01:37:31,170 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:31,170 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-09 01:37:31,171 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 9
+2023-06-09 01:37:31,171 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:31,171 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-09 01:37:31,171 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:31,171 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-09 01:37:31,171 INFO    SenderThread:95365 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-09 01:37:31,666 INFO    Thread-12 :95365 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/output.log
+2023-06-09 01:37:31,667 INFO    SenderThread:95365 [dir_watcher.py:finish():389] scan: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files
+2023-06-09 01:37:31,667 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/requirements.txt requirements.txt
+2023-06-09 01:37:31,668 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/output.log output.log
+2023-06-09 01:37:31,672 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/config.yaml config.yaml
+2023-06-09 01:37:31,676 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-summary.json wandb-summary.json
+2023-06-09 01:37:31,677 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/conda-environment.yaml conda-environment.yaml
+2023-06-09 01:37:31,681 INFO    SenderThread:95365 [dir_watcher.py:finish():403] scan save: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-metadata.json wandb-metadata.json
+2023-06-09 01:37:31,682 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 10
+2023-06-09 01:37:31,684 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:31,684 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-09 01:37:31,685 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:31,685 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-09 01:37:31,685 INFO    SenderThread:95365 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-09 01:37:32,141 INFO    wandb-upload_0:95365 [upload_job.py:push():133] Uploaded file /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/requirements.txt
+2023-06-09 01:37:32,206 INFO    wandb-upload_1:95365 [upload_job.py:push():133] Uploaded file /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/output.log
+2023-06-09 01:37:32,252 INFO    wandb-upload_4:95365 [upload_job.py:push():133] Uploaded file /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/conda-environment.yaml
+2023-06-09 01:37:32,270 INFO    wandb-upload_3:95365 [upload_job.py:push():133] Uploaded file /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/wandb-summary.json
+2023-06-09 01:37:32,280 INFO    wandb-upload_2:95365 [upload_job.py:push():133] Uploaded file /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/files/config.yaml
+2023-06-09 01:37:32,485 INFO    Thread-11 (_thread_body):95365 [sender.py:transition_state():602] send defer: 11
+2023-06-09 01:37:32,486 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:32,486 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-09 01:37:32,486 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:32,487 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-09 01:37:32,487 INFO    SenderThread:95365 [file_pusher.py:join():164] waiting for file pusher
+2023-06-09 01:37:32,487 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 12
+2023-06-09 01:37:32,487 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:32,487 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-09 01:37:32,487 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:32,487 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-09 01:37:32,662 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 13
+2023-06-09 01:37:32,663 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:32,663 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-09 01:37:32,664 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:32,664 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-09 01:37:32,664 INFO    SenderThread:95365 [sender.py:transition_state():602] send defer: 14
+2023-06-09 01:37:32,665 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: defer
+2023-06-09 01:37:32,665 DEBUG   SenderThread:95365 [sender.py:send():369] send: final
+2023-06-09 01:37:32,665 INFO    HandlerThread:95365 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-09 01:37:32,665 DEBUG   SenderThread:95365 [sender.py:send():369] send: footer
+2023-06-09 01:37:32,665 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: defer
+2023-06-09 01:37:32,665 INFO    SenderThread:95365 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-09 01:37:32,667 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-09 01:37:32,667 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: server_info
+2023-06-09 01:37:32,667 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-09 01:37:32,667 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: poll_exit
+2023-06-09 01:37:32,668 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-09 01:37:32,668 DEBUG   SenderThread:95365 [sender.py:send_request():396] send_request: server_info
+2023-06-09 01:37:32,809 DEBUG   HandlerThread:95365 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-09 01:37:32,810 INFO    HandlerThread:95365 [handler.py:finish():854] shutting down handler
+2023-06-09 01:37:33,673 INFO    WriterThread:95365 [datastore.py:close():298] close: /Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/wandb/run-20230609_013724-yy0ry1g4/run-yy0ry1g4.wandb
+2023-06-09 01:37:33,814 INFO    SenderThread:95365 [sender.py:finish():1526] shutting down sender
+2023-06-09 01:37:33,814 INFO    SenderThread:95365 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-09 01:37:33,814 INFO    SenderThread:95365 [file_pusher.py:join():164] waiting for file pusher

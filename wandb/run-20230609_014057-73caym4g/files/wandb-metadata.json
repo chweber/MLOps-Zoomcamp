@@ -1,0 +1,41 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-06-08T23:40:58.308382",
+    "startedAt": "2023-06-08T23:40:57.695221",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlops-wandb_experiment-tracking",
+        "--wandb_entity",
+        "chweber",
+        "--data_artifact",
+        "chweber/mlops-wandb_experiment-tracking/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp/sweep.py",
+    "codePath": "sweep.py",
+    "git": {
+        "remote": "https://github.com/chweber/MLOps-Zoomcamp.git",
+        "commit": "0472cc04f06b8a13ad792ae3fa6a5194fdb6adb7"
+    },
+    "email": "info.cweber@googlemail.com",
+    "root": "/Users/toph/Documents/Private/GitHub/MLOps-Zoomcamp",
+    "host": "MBPvonChristoph.nachbar.home.cats.rocks",
+    "username": "toph",
+    "executable": "/opt/homebrew/anaconda3/envs/mlops_zoomcamp/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 11.954265594482422
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
